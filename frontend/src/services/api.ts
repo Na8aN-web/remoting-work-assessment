@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Task } from "../types";
 
-const API_URL = "http://localhost:3001/api/tasks";
+const API_URL = "https://remoting-work-assessment-ueta.vercel.app/api/tasks";
 // Get all tasks
 export const getTasks = async (): Promise<Task[]> => {
   const response = await axios.get(API_URL);
