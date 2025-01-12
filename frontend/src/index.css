@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.rbc-day-bg {
+  border: 1px solid #e2e8f0;
+  background-color: #fff;
+}
+
+.rbc-event {
+  background-color: #3182ce;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.rbc-event:hover {
+  opacity: 0.8;
+}
+
+.rbc-today {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.rbc-toolbar {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px;
+}
+
+.rbc-toolbar button {
+  background-color: #3182ce;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #2b6cb0;
+}
